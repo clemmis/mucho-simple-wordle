@@ -1,0 +1,67 @@
+
+<!-- saved from url=(0064)https://teaching.csse.uwa.edu.au/units/CITS3403/labs/JS-Lab.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h3>Exercise 3: JavaScript</h3>
+
+<p>
+    The aims of this lab are:
+</p><ul>
+    <li>Start laying out your project web page</li>
+    <li>Get to know JavaScript</li>
+    <ul>
+        <li>Use some basic JS to make a webpage interactive</li>
+        <li>Use JS and HTML5 Forms to get information from a user</li>
+    </ul>
+</ul>
+
+<h3>Start working on your Project layout</h3>
+<p>Decide on the key pages of your site, design the layout and navigation flow. You can scatch this on a piece of paper
+    first and feel free to consult with your lab facilitator.</p>
+
+
+<h3>JavaScript</h3>
+<h4>Getting started with JavaScript</h4>
+<p>
+    Work through the <a href="https://www.w3schools.com/js/default.asp">W3Schools Javascript tutorial</a>. There is a
+    lot there, and you can skip some sections, but you should do most of the exercises up to the <a href="https://www.w3schools.com/js/js_validation.asp">Forms</a>
+    topic. You should also come back to this tutorial as we go through the semester as the later sections will help with
+    some of our more advanced material.
+</p>
+
+<p>
+    You can experiment with basic JS functions and commands in either the console of a webpage (see <a href="https://teaching.csse.uwa.edu.au/units/CITS3403/labs/VSCode-Lab.html">Lab 0: Dev Environment; Get to know
+        your browsers</a>), or by running a <a href="https://nodejs.org/en/">NodeJS</a> server.
+</p>
+
+<h4>Making a Wordle clone</h4>
+<p> 
+    Write a JavaScript function <code>function wordle(target, guess)</code> with the following specification:
+    The function should take two five letter words and report 
+    which of the of the letters in guess appear in the word in the correct location,
+    which latters appear in the word in a different location, and which letters do not appear in the word.
+    It should print an error message if both words do not have five letters, or are otherwise the incorrect type.
+    For example:<br>
+    <code>wordle(scope, scoop)</code> should produce the output:<br>
+    <code>The first letter is in the correct position, 
+      the second letter is in the correct position, the third letter is in the correct position,
+      the fourth letter doesn't appear in the word <i>twice</i>, the fifth letter apears in the word, but in a different position.</code>
+      Note the <code>twice</code> for the fourth letter is optional, but this reflects the nature of the feedback given by Wordle.
+</p>
+
+
+<h4>Make you webpage interactive using JS and Forms</h4>
+<p>
+    There are many ways to use JS to make a webpage interactive, for example: you could use forms to take information from a user and
+    provide an output to the user; or you could have a user click on a button to make CSS or content changes. See <a href="https://www.w3schools.com/js/js_validation.asp">this W3Schools page</a> for some
+    information on how to take data from a form.
+</p>
+
+<p>
+    Make your webpage interactive by adding a JS function. Some example functions:
+</p>
+<ul>
+    <li>Take in two numbers, and return the <a href="https://en.wikipedia.org/wiki/Least_common_multiple">Lowest-Common-Multiple</a></li>
+    <li>Take in a year, and determine if it is a <a href="https://en.wikipedia.org/wiki/Leap_year">leap year</a></li>
+    <li>Take in a hex code (#xxxxxx), and change the background of the page to that <a href="https://htmlcolorcodes.com/">colour</a></li>
+    <li>Have a button that changes the background colour to a random colour</li>
+</ul>
+<div id="forest-ext-shadow-host"></div></body></html>
